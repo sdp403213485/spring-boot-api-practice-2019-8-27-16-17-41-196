@@ -7,19 +7,12 @@ public class Company {
 	private String companyName;
 	private int employeesNumber;
 	private List<Employee> employees;
-	public String getCompanyID() {
-		return companyID;
-	}
-	
 	
 	
 	
 	public Company() {
 		super();
 	}
-
-
-
 
 	public Company(String companyID, String companyName, int employeesNumber, List<Employee> employees) {
 		super();
@@ -31,7 +24,10 @@ public class Company {
 
 
 
-
+	public String getCompanyID() {
+		return companyID;
+	}
+	
 	public void setCompanyID(String companyID) {
 		this.companyID = companyID;
 	}
